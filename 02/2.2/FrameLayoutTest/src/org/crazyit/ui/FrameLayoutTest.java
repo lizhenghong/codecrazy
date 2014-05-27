@@ -76,6 +76,6 @@ public class FrameLayoutTest extends Activity
 				// 发送一条空消息通知系统改变6个TextView组件的背景色
 				handler.sendEmptyMessage(0x123);
 			}
-		}, 0, 200);
+		}, 0, 2000);
 	}
 }
