@@ -19,15 +19,15 @@
 <Button
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
-	android:background="@drawable/red"
-	android:text="普通按钮"
-	android:textSize="10pt"
+	android:background="@drawable/button_selector"
+	android:text="普通按钮9patch"
+	android:textSize="12pt"
 />
 <!-- 带文字的图片按钮-->
 <Button
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
-	android:background="@drawable/button_selector"
+	android:background="@drawable/docked_"
 	android:textSize="11px"
 	android:text="带文字的图片按钮"
 />
