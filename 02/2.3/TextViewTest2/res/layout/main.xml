@@ -17,7 +17,7 @@
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:text="圆角边框、渐变背景的文本"
-	android:textSize="24pt"
+	android:textSize="50pt"
 	android:background="@drawable/bg_border2"
 	/>
 </LinearLayout>

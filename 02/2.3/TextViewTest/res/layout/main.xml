@@ -5,24 +5,26 @@
 	android:layout_height="fill_parent"
 	>
 	<!-- 设置字体为20pt，文本框结尾处绘制图片  -->
-	<TextView
+	<EditText
 	android:layout_width="fill_parent" 
 	android:layout_height="wrap_content" 
 	android:text="我爱Java"
 	android:textSize="20pt"
-	android:drawableEnd="@drawable/ic_launcher"
+	android:drawableBottom="@drawable/ic_launcher"
 	/>
 	<!-- 设置中间省略， 所有字母大写 -->
-	<TextView
+	<EditText
 	android:layout_width="fill_parent" 
 	android:layout_height="wrap_content"
 	android:singleLine="true" 
 	android:text="我爱Java我爱Java我爱Java我爱Java我爱Java我aaaJava"
 	android:ellipsize="middle"
 	android:textAllCaps="true"
+	android:minLines="3"
+	android:maxLines="5"
 	/>
 	<!-- 对邮件、电话增加链接 -->
-	<TextView
+	<EditText
 	android:layout_width="fill_parent" 
 	android:layout_height="wrap_content"
 	android:singleLine="true" 
@@ -42,7 +44,7 @@
 	android:textSize="18pt"
 	/>
 	<!-- 测试密码框 -->
-	<TextView android:id="@+id/passwd"
+	<EditText android:id="@+id/passwd"
 	android:layout_width="fill_parent" 
 	android:layout_height="wrap_content" 
 	android:text="@string/hello"
