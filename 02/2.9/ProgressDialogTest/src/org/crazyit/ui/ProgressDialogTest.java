@@ -83,7 +83,7 @@ public class ProgressDialogTest extends Activity
 		// 设置对话框 显示的内容
 		pd2.setMessage("耗时任务的完成百分比");
 		// 设置对话框不能用“取消”按钮关闭
-		pd2.setCancelable(false);
+		pd2.setCancelable(true);
 		// 设置对话框的进度条风格
 		pd2.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
 		// 设置对话框的进度条是否显示进度
