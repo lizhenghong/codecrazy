@@ -15,7 +15,7 @@
 	android:layout_height="200dp"
 	android:layout_gravity="center_horizontal"
 	android:startYear="2000"
-	android:endYear="2012"
+	android:endYear="2022"
 	android:calendarViewShown="true"
 	android:spinnersShown="true"
 	/>
