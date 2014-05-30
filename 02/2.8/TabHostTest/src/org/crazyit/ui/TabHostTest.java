@@ -15,6 +15,7 @@ import android.widget.TabHost.TabSpec;
  * @author  Yeeku.H.Lee kongyeeku@163.com
  * @version  1.0
  */
+@SuppressWarnings("deprecation")
 public class TabHostTest extends TabActivity
 {
 	@Override
