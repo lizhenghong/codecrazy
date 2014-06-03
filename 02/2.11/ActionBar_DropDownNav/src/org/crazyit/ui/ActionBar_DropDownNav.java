@@ -31,7 +31,7 @@ public class ActionBar_DropDownNav extends Activity implements
 		// 设置ActionBar是否显示标题
 		actionBar.setDisplayShowTitleEnabled(true);
 		// 设置导航模式,使用List导航
-		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+		actionBar.setNavigationMode(ActionBar. NAVIGATION_MODE_LIST );
 		// 为actionBar安装ArrayAdapter
 		actionBar.setListNavigationCallbacks(
 			new ArrayAdapter<String>(ActionBar_DropDownNav.this,

@@ -35,9 +35,9 @@ public class ActionHomeTest extends Activity
 		// 设置是否显示应用程序图标
 		actionBar.setDisplayShowHomeEnabled(true);
 		// 将应用程序图标设置为可点击的按钮
-		actionBar.setHomeButtonEnabled(true);
+	//	actionBar.setHomeButtonEnabled(true);
 		// 将应用程序图标设置为可点击的按钮，并在图标上添加向左箭头
-//		actionBar.setDisplayHomeAsUpEnabled(true);
+		actionBar.setDisplayHomeAsUpEnabled(true);
 
 	}
 
